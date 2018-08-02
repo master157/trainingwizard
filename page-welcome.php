@@ -13,8 +13,11 @@
                 <div class="col-xs-12">
 
                     <div class="search-box">
-                        <?php $hrDocuSearch = new WP_Advanced_Search('hrDocuSearch'); ?>
-                        <?php $hrDocuSearch->the_form(); ?>
+                        <?php // $hrDocuSearch = new WP_Advanced_Search('hrDocuSearch'); ?>
+                        <?php // $hrDocuSearch->the_form(); ?>
+
+                        <?php echo do_shortcode('[wpdreams_ajaxsearchlite]'); ?>
+
                     </div>
 
                     <section class="c-trainings-list no-padding-bottom">

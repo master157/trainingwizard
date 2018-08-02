@@ -1974,3 +1974,50 @@ a img.aligncenter {
 		page-break-after:avoid;
 	}
 }
+
+#ajaxsearchlite1 .probox .proinput input, div.asl_w .probox .proinput input {
+	font-size: 18px;
+}
+
+div.asl_m .probox .proinput {
+	height: 41px !important;
+}
+
+#ajaxsearchlite1 .probox .proinput input, div.asl_w .probox .proinput input{
+	border: 2px solid #f0f4f7 !important;
+	position: absolute;
+	top: 0px;
+	height: auto;
+	background: #f6f8fa !important;
+	border-radius: 8px;
+	padding: 6px 12px !important;
+	font-size: 18px !important;
+	max-width: 95%;
+}
+
+#ajaxsearchlite1 .probox, div.asl_w .probox {
+	height: auto !important;
+}
+
+div.asl_w .probox .promagnifier,
+#ajaxsearchlite1 div.asl_w .probox .promagnifier{
+	width: auto !important;
+	height: auto !important;
+	cursor: pointer !important;
+	color: #ffffff !important;
+	font-size: 14px !important;
+	background: #572d88 !important;
+	font-weight: normal !important;
+	text-transform: uppercase !important;
+	border-radius: 3px !important;
+	text-align: center !important;
+	padding: 10px 10% !important;
+}
+
+div.asl_m .probox .proloading,
+div.asl_m .probox .proclose {
+	position: relative;
+	cursor: pointer;
+	top: 5px;
+	right: 4px;
+}
